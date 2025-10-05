@@ -59,15 +59,12 @@ export const Hero: React.FC = () => {
         <p className="text-lg sm:text-xl md:text-2xl text-purple-200 mb-4 font-light px-4">
           The AI Travel Super‑App
         </p>
-
         <p className="text-base sm:text-lg md:text-xl text-slate-300 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
           Reimagining how 8B people discover, plan, and book the world
         </p>
-
         <p className="text-base sm:text-lg md:text-xl text-slate-300 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
           The world's first end‑to‑end travel ecosystem: AI that plans, a social network that inspires, maps that discover, and a unified engine that books anything, anywhere.
         </p>
-
         <p className="text-sm sm:text-base md:text-lg text-slate-400 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
           One platform unifying discovery, social, maps, AI planning, and unified booking. Built to serve every traveler and every destination, from local gems to global routes.
         </p>
@@ -90,17 +87,19 @@ export const Hero: React.FC = () => {
             </p>
           </div>
           
-          <a
-            href="https://drive.google.com/file/d/1axj3QqoelK-Vq-xrpXfoB7SxVaZKw9nz/view?usp=drivesdk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group bg-gradient-to-r from-purple-600 to-teal-600 hover:from-purple-500 hover:to-teal-500 px-8 py-4 rounded-full text-white font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25"
-          >
-            <span className="flex items-center justify-center gap-2">
-              Watch Pitch
-              <Zap className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-            </span>
-          </a>
+          <div className="flex flex-col items-center gap-2">
+            <a
+              href="https://drive.google.com/file/d/1axj3QqoelK-Vq-xrpXfoB7SxVaZKw9nz/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-r from-purple-600 to-teal-600 hover:from-purple-500 hover:to-teal-500 px-8 py-4 rounded-full text-white font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25"
+            >
+              <span className="flex items-center justify-center gap-2">
+                Watch Pitch
+                <Zap className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
+              </span>
+            </a>
+          </div>
         </div>
 
         {/* Stats */}
