@@ -86,7 +86,7 @@ export const Hero: React.FC = () => {
               </span>
             </a>
             <p className="text-xs text-slate-400 mt-1">
-              current prototype is not that nice, but my vision is in correct path
+              The current prototype isn't perfect, but my vision is on the right track.
             </p>
           </div>
           
