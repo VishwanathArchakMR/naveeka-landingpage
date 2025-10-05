@@ -198,18 +198,18 @@ export const FutureImpact: React.FC = () => {
             </div>
             <div className="group">
               <div className="text-3xl font-bold text-transparent bg-gradient-to-r from-teal-400 to-orange-400 bg-clip-text mb-2 group-hover:scale-110 transition-transform duration-300">
-                2030
+                Next
               </div>
               <div className="text-slate-400 group-hover:text-slate-300 transition-colors duration-300">
-                1B Connected Travelers
+                Scaling Towards 1B Travelers
               </div>
             </div>
             <div className="group">
               <div className="text-3xl font-bold text-transparent bg-gradient-to-r from-orange-400 to-purple-400 bg-clip-text mb-2 group-hover:scale-110 transition-transform duration-300">
-                2035
+                Future
               </div>
               <div className="text-slate-400 group-hover:text-slate-300 transition-colors duration-300">
-                World Transformed
+                Uniting the World of Travel
               </div>
             </div>
           </div>
