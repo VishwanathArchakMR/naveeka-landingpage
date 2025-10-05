@@ -52,29 +52,6 @@ export const ClosingSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Main CTA */}
-          <div className="mb-12 sm:mb-16 px-4">
-            <button className="group bg-gradient-to-r from-purple-600 via-teal-600 to-orange-600 hover:from-purple-500 hover:via-teal-500 hover:to-orange-500 px-8 sm:px-10 md:px-12 py-4 sm:py-5 md:py-6 rounded-full text-white font-bold text-base sm:text-lg md:text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25">
-              <span className="flex items-center justify-center gap-3">
-                Try the live demo
-                <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform duration-300" />
-              </span>
-            </button>
-          </div>
-
-          {/* Secondary Actions */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-12 sm:mb-16 px-4">
-            <button className="bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/30 px-6 py-3 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105">
-              Watch 2‑minute product video
-            </button>
-            <button className="bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/30 px-6 py-3 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105">
-              Request investor deck
-            </button>
-            <button className="bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 hover:border-white/30 px-6 py-3 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105">
-              View Prototype
-            </button>
-          </div>
-
           {/* Final Message */}
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-slate-400 leading-relaxed mb-8">
