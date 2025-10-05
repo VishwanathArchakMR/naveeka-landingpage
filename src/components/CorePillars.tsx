@@ -97,16 +97,6 @@ export const CorePillars: React.FC = () => {
             );
           })}
         </div>
-
-        {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <p className="text-lg text-slate-300 mb-6">
-            Experience all five pillars working in perfect harmony
-          </p>
-          <button className="bg-gradient-to-r from-purple-600 via-teal-600 to-orange-600 hover:from-purple-500 hover:via-teal-500 hover:to-orange-500 px-8 py-4 rounded-full text-white font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
-            See Them in Action
-          </button>
-        </div>
       </div>
     </section>
   );
