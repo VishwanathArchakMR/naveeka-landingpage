@@ -37,58 +37,72 @@ export const Footer: React.FC = () => {
             Travel Reimagined for Humanity
           </p>
 
-          {/* Links */}
+          {/* Links - Commented out as requested */}
+          {/*
           <div className="flex flex-wrap justify-center gap-8 mb-8">
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               AI
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Trail
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Atlas
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Journey
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Vision
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Blog
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Trust & Safety
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Creators
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Local Businesses
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Tourism Boards
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Partnerships
             </a>
-            <a href="#" className="text-slate-400 hover:text-white transition-colors duration-300">
+            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
               Careers
             </a>
           </div>
+          */}
 
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-8">
-            <a href="#" className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110">
+            <a
+              className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110"
+              href="#"
+            >
               <Twitter className="w-5 h-5 text-white" />
             </a>
-            <a href="#" className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110">
+            <a
+              className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110"
+              href="#"
+            >
               <Linkedin className="w-5 h-5 text-white" />
             </a>
-            <a href="#" className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110">
+            <a
+              className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110"
+              href="#"
+            >
               <Instagram className="w-5 h-5 text-white" />
             </a>
-            <a href="#" className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110">
+            <a
+              className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110"
+              href="#"
+            >
               <Mail className="w-5 h-5 text-white" />
             </a>
           </div>
