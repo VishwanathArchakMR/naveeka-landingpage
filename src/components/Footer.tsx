@@ -1,5 +1,5 @@
 import React from 'react';
-import { Globe, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
+import { Globe, Twitter, Linkedin, Instagram, Mail, Youtube } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -63,6 +63,14 @@ export const Footer: React.FC = () => {
               rel="noopener noreferrer"
             >
               <Instagram className="w-5 h-5 text-white" />
+            </a>
+            <a
+              className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110"
+              href="https://www.youtube.com/@FuelupwithMr.Archak"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Youtube className="w-5 h-5 text-white" />
             </a>
             <a
               className="w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 hover:border-white/30 transition-all duration-300 transform hover:scale-110"
