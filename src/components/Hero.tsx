@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Globe, Users, Zap } from 'lucide-react';
+
 export const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900">
@@ -22,9 +23,11 @@ export const Hero: React.FC = () => {
               animationDelay: `${Math.random() * 5}s`,
               animationDuration: `${3 + Math.random() * 4}s`
             }}
-          ></div>
+          >
+          </div>
         ))}
       </div>
+
       {/* Content */}
       <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
         {/* Logo Icon */}
@@ -56,15 +59,19 @@ export const Hero: React.FC = () => {
         <p className="text-lg sm:text-xl md:text-2xl text-purple-200 mb-4 font-light px-4">
           The AI Travel Super‑App
         </p>
+
         <p className="text-base sm:text-lg md:text-xl text-slate-300 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
           Reimagining how 8B people discover, plan, and book the world
         </p>
+
         <p className="text-base sm:text-lg md:text-xl text-slate-300 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
           The world's first end‑to‑end travel ecosystem: AI that plans, a social network that inspires, maps that discover, and a unified engine that books anything, anywhere.
         </p>
+
         <p className="text-sm sm:text-base md:text-lg text-slate-400 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
           One platform unifying discovery, social, maps, AI planning, and unified booking. Built to serve every traveler and every destination, from local gems to global routes.
         </p>
+
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
           <a
             href="https://vishwanatharchakmr.github.io/naveeka-frontend/"
@@ -79,7 +86,7 @@ export const Hero: React.FC = () => {
           </a>
           
           <a
-            href="./naveeka-product-video.mp4"
+            href="https://youtu.be/lKUvFYayfr4?si=ZOhMwDZgCWc6BtH6"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white/10 backdrop-blur-md hover:bg-white/20 border border-white/20 hover:border-white/30 px-8 py-4 rounded-full text-white font-semibold text-lg transition-all duration-300 transform hover:scale-105"
@@ -90,6 +97,7 @@ export const Hero: React.FC = () => {
             </span>
           </a>
         </div>
+
         {/* Stats */}
         <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 text-center px-4">
           <div className="group">
@@ -106,6 +114,7 @@ export const Hero: React.FC = () => {
           </div>
         </div>
       </div>
+
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-1 h-12 bg-gradient-to-b from-transparent via-white to-transparent rounded-full"></div>
