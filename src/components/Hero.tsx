@@ -80,7 +80,7 @@ export const Hero: React.FC = () => {
           </a>
           
           <a
-            href="https://youtu.be/lKUvFYayfr4?si=ZOhMwDZgCWc6BtH6"
+            href="https://drive.google.com/file/d/1axj3QqoelK-Vq-xrpXfoB7SxVaZKw9nz/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white/10 backdrop-blur-md hover:bg-white/20 border border-white/20 hover:border-white/30 px-8 py-4 rounded-full text-white font-semibold text-lg transition-all duration-300 transform hover:scale-105"
