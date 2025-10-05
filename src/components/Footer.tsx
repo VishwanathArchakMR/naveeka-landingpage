@@ -37,48 +37,6 @@ export const Footer: React.FC = () => {
             Travel Reimagined for Humanity
           </p>
 
-          {/* Links - Commented out as requested */}
-          {/*
-          <div className="flex flex-wrap justify-center gap-8 mb-8">
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              AI
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Trail
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Atlas
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Journey
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Vision
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Blog
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Trust & Safety
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Creators
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Local Businesses
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Tourism Boards
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Partnerships
-            </a>
-            <a className="text-slate-400 hover:text-white transition-colors duration-300" href="#">
-              Careers
-            </a>
-          </div>
-          */}
-
           {/* Social Links */}
           <div className="flex justify-center gap-6 mb-8">
             <a
