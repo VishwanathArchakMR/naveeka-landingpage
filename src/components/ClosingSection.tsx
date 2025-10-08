@@ -14,12 +14,12 @@ export const ClosingSection: React.FC = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
           {/* Main Headline */}
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-white via-purple-300 to-teal-300 bg-clip-text text-transparent leading-tight px-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 sm:mb-8 bg-gradient-to-r from-white via-purple-300 to-teal-300 bg-clip-text text-transparent leading-tight px-4 tracking-wide">
             Naveeka is on a mission to connect all 8 billion people through the power of travel
           </h2>
 
           {/* Subheadline */}
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-10 sm:mb-14 max-w-4xl mx-auto leading-relaxed px-4 tracking-normal">
             Redefining human connection, one journey at a time. Every journey becomes a bridge between cultures, communities, and humanity.
           </p>
 
@@ -31,18 +31,18 @@ export const ClosingSection: React.FC = () => {
               </div>
               <p className="text-sm text-slate-400 mt-2 group-hover:text-slate-300 transition-colors duration-300">Global Unity</p>
             </div>
-            
+
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
-            
+
             <div className="group">
               <div className="w-16 h-16 bg-gradient-to-br from-teal-600 to-teal-400 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                 <Users className="w-8 h-8 text-white" />
               </div>
               <p className="text-sm text-slate-400 mt-2 group-hover:text-slate-300 transition-colors duration-300">Community</p>
             </div>
-            
+
             <div className="w-16 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
-            
+
             <div className="group">
               <div className="w-16 h-16 bg-gradient-to-br from-orange-600 to-orange-400 rounded-2xl flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                 <Rocket className="w-8 h-8 text-white" />
@@ -53,13 +53,13 @@ export const ClosingSection: React.FC = () => {
 
           {/* Final Message */}
           <div className="max-w-3xl mx-auto">
-            <p className="text-lg text-slate-400 leading-relaxed mb-8">
-              The future of travel isn't just about going places — it's about connecting souls, 
+            <p className="text-base sm:text-lg text-slate-400 leading-relaxed mb-10 px-4">
+              The future of travel isn't just about going places — it's about connecting souls,
               preserving cultures, and building a world where every journey matters.
             </p>
-            
+
             <div className="text-center">
-              <p className="text-sm text-slate-500">
+              <p className="text-sm text-slate-500 mb-6">
                 Ready to be part of history?
               </p>
             </div>
@@ -77,7 +77,7 @@ export const ClosingSection: React.FC = () => {
                   animationDelay: `${Math.random() * 5}s`,
                   animationDuration: `${4 + Math.random() * 4}s`
                 }}
-              ></div>
+              />
             ))}
           </div>
         </div>
