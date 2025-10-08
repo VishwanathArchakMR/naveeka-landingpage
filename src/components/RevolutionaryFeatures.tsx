@@ -5,33 +5,39 @@ import { WhatMakesDifferentModal } from './WhatMakesDifferentModal';
 import { ProductHighlightsModal } from './ProductHighlightsModal';
 import { CreatorsLocalsModal } from './CreatorsLocalsModal';
 
+// Import images
+import howItWorksImg from '../assets/features/howitworks.png';
+import whatMakesDifferentImg from '../assets/features/whatmakesitdifferent.png';
+import productHighlightsImg from '../assets/features/producthighlights.png';
+import forCreatorsLocalsImg from '../assets/features/forcreatorsandlocals.png';
+
 const features = [
   {
     icon: MessageSquare,
     title: 'How It Works',
     description: 'Ask Navee AI in natural language: "Plan a 5‑day spiritual trip in India under ₹65,000 for a vegetarian solo woman." Get a day‑by‑day plan, safety notes, cultural etiquette, and bookings in one flow.',
-    image: '/src/assets/features/howitworks.png',
+    image: howItWorksImg,
     modalType: 'howItWorks'
   },
   {
     icon: Eye,
     title: 'What Makes It Different',
     description: 'End‑to‑end integration from inspiration to booking to on‑trip assistance. Community first with local voices, global reach, and creator earnings. AI at the core with real‑time, culturally aware, multi‑language guidance.',
-    image: '/src/assets/features/whatmakesitdifferent.png',
+    image: whatMakesDifferentImg,
     modalType: 'whatMakesDifferent'
   },
   {
     icon: Globe,
     title: 'Product Highlights',
     description: 'AI trip architect with budget controls, child‑friendly filters, and accessibility. Live cultural calendar with festivals, events, and seasonal windows. Predictive discovery from weekend micro‑trips to multi‑country expeditions.',
-    image: '/src/assets/features/producthighlights.png',
+    image: productHighlightsImg,
     modalType: 'productHighlights'
   },
   {
     icon: Users,
     title: 'For Creators and Locals',
     description: 'A vertical platform built for travel content and community. Monetize stories, micro‑guides, and live experiences. Reach global audiences while promoting local businesses.',
-    image: '/src/assets/features/forcreatorsandlocals.png',
+    image: forCreatorsLocalsImg,
     modalType: 'creatorsLocals'
   },
   
