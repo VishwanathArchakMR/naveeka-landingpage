@@ -15,13 +15,12 @@ export const ClosingSection: React.FC = () => {
         <div className="max-w-5xl mx-auto text-center">
           {/* Main Headline */}
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 bg-gradient-to-r from-white via-purple-300 to-teal-300 bg-clip-text text-transparent leading-tight px-4">
-            8 Billion Connected Explorers
+            Naveeka is on a mission to connect all 8 billion people through the power of travel
           </h2>
 
           {/* Subheadline */}
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-300 mb-8 sm:mb-12 max-w-4xl mx-auto leading-relaxed px-4">
-            By 2035, Naveeka redefines human connection through travel. 
-            Every journey becomes a bridge between cultures, communities, and humanity.
+            Redefining human connection, one journey at a time. Every journey becomes a bridge between cultures, communities, and humanity.
           </p>
 
           {/* Vision Icons */}

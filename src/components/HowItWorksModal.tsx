@@ -7,8 +7,8 @@ interface HowItWorksModalProps {
 
 export const HowItWorksModal: React.FC<HowItWorksModalProps> = ({ onClose }) => {
   return (
-    <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
-      <div className="bg-slate-900 border border-white/10 rounded-3xl max-w-6xl w-full max-h-[90vh] overflow-y-auto relative">
+    <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center sm:p-4 overflow-y-auto">
+      <div className="bg-slate-900 border-0 sm:border border-white/10 rounded-none sm:rounded-3xl max-w-6xl w-full h-full sm:h-auto sm:max-h-[90vh] overflow-y-auto relative">
         <button
           onClick={onClose}
           className="sticky top-4 right-4 ml-auto mr-4 mt-4 w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all duration-300 z-10"

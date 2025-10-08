@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Mail, Github } from 'lucide-react';
+import { Menu, X, Mail } from 'lucide-react';
 
 export function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,17 +50,8 @@ export function HamburgerMenu() {
         }`}
       >
         <div className="flex flex-col h-full p-6">
-          {/* Profile & Email Icons */}
+          {/* Email Icon */}
           <div className="flex items-center gap-4 mb-8 pt-16">
-            <a
-              href="https://github.com/VishwanathArchakMR"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 flex items-center justify-center transition-colors"
-              aria-label="GitHub Profile"
-            >
-              <Github className="h-6 w-6 text-white" />
-            </a>
             <a
               href="mailto:vishwanath@naveeka.com"
               className="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 flex items-center justify-center transition-colors"
