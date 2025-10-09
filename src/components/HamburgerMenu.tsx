@@ -53,7 +53,7 @@ export function HamburgerMenu() {
           {/* Email Icon */}
           <div className="flex items-center gap-4 mb-8 pt-16">
             <a
-              href="mailto:vishwanatharchak@naveeka.com"
+              href="mailto:vishwanatharchakmr@naveeka.com"
               className="w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 flex items-center justify-center transition-colors"
               aria-label="Email"
             >
